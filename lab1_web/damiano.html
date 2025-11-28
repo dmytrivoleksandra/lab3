@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Даміано Давід — Біографія</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0a0a0a;
+      color: #f0f0f0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #ff4d4d;
+      padding: 20px 0;
+    }
+
+    .container {
+      display: flex;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .left, .right {
+      flex: 1;
+      padding: 20px;
+    }
+
+    /* Текстові блоки */
+    .text-block {
+      margin-bottom: 20px;
+    
+    }
+
+    /* Фото зліва */
+    .float-left {
+      float: left;
+      margin: 0 15px 10px 0;
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* Фото справа */
+    .float-right {
+      float: right;
+      margin: 0 0 10px 15px;
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* Фото  */
+    .no-float {
+      display: block;
+      margin: 10px auto;
+      width: 300px;
+      border-radius: 10px;
+    }
+
+    /* Стек картинок */
+    .stack {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      margin: auto;
+    }
+
+    .stack img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 400px;
+      height: auto;
+      border-radius: 10px;
+      opacity: 0.9;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+    }
+
+    .stack img:nth-child(1) { top: 0; left: 0; }
+    .stack img:nth-child(2) { top: 20px; left: 20px; }
+    .stack img:nth-child(3) { top: 40px; left: 40px; }
+
+    .stack p {
+      position: absolute;
+      bottom: -40px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      color: #ff4d4d;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Даміано Давід — Біографія</h1>
+
+<div class="container">
+  <!-- Ліва частина -->
+  <div class="left">
+    <div class="text-block">
+      <img src="img/1738855092-1738820633-1738686487-damiano-david-brand-ambassador-bulgari-foto0.avif" alt="Даміано Давід" class="float-left">
+      <p>
+        <b>Damiano David</b> Damiano David was born in Rome, Italy, in 1999 to Daniele David and Rossella Scognamiglio, is the lead vocalist of the Italian rock band Måneskin. Raised with his brother in a multicultural environment due to his parents’ work as flight attendants, Damiano began singing at age six. He attended Liceo Linguistico Eugenio Montale in Rome, where he met Victoria De Angelis and Thomas Raggi, his future bandmates. Initially aspiring to a career in basketball, Damiano played as a point guard for Eurobasket Roma until the age of 17, when he decided to dedicate himself to music.
+      </p>
+    </div>
+
+    <div class="text-block">
+      <img src="img/Damiano-David-1-1024x1024.jpg" alt="Даміано Давід" class="float-right">
+      <p>
+        In 2016, Måneskin was formed by Damiano, Victoria (bass), Thomas (guitar), and later, Ethan Torchio (drums). Despite being initially rejected by the band for his style, Damiano refined his image, embracing a powerful and self-expressive stage persona that would become central to their act. Måneskin began performing as buskers on the streets of Rome, quickly gaining local recognition. Their break came when they finished as runners-up in the 2017 edition of X Factor Italy, which propelled them into the Italian music scene. Måneskin’s 2018 debut album, Il ballo della vita, and its 2021 follow-up, Teatro d’ira: Vol. I, solidified their success, with the latter leading to their victory at both the Sanremo Music Festival and Eurovision 2021 with the track Zitti e Buoni. The band’s Eurovision performance sparked international acclaim but also controversy when Damiano was accused of drug use during the show. He denied the allegations, tested negative, and continues to advocate for a disciplined, drug-free lifestyle, emphasizing creativity through self-control and authenticity.
+      </p>
+    </div>
+
+    <div class="text-block">
+      <img src="img/Damiano-David-VOICES-ph-Damon-Baker-2025-pp.webp" alt="Даміано Давід" class="no-float">
+      
+    </div>
+  </div>
+
+  <!-- Права частина -->
+  <div class="right">
+    <div class="stack">
+      <img src="img/Damiano_David_RUSH_Concept_Photo.webp" alt="Даміано Давід">
+      <img src="img/Damiano_David_RUSH_Concept_Photo.webp" alt="Даміано Давід">
+      <img src="img/Damiano_David_RUSH_Concept_Photo.webp" alt="Даміано Давід">
+      <p>Даміано Давід (Måneskin)</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Måneskin</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="index.html#biography">Біографія</a></li>
+                    <li><a href="index.html#members">Учасники</a></li>
+                    <li><a href="index.html#awards">Нагороди</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact-hero" class="section">
+            <div class="container">
+                <h2>Контакти</h2>
+            </div>
+        </section>
+
+        <section id="forms" class="section">
+            <div class="container">
+                <div class="forms-container">
+                    <!-- Форма входу -->
+                    <div class="form-wrapper">
+                        <h3>Форма входу для фанатів</h3>
+                        <form id="login-form" class="styled-form">
+                            <div class="form-group">
+                                <label for="email">Електронна пошта:</label>
+                                <input type="email" id="email" name="email" required placeholder="your@email.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="password">Пароль:</label>
+                                <input type="password" id="password" name="password" required minlength="6">
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="remember" name="remember">
+                                <label for="remember">Запам'ятати мене</label>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="terms" name="terms" required>
+                                <label for="terms">Я погоджуюсь з умовами використання</label>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary">Увійти</button>
+                        </form>
+                    </div>
+
+                    <!-- Форма зворотного зв'язку -->
+                    <div class="form-wrapper">
+                        <h3>Форма зворотного зв'язку</h3>
+                        <form id="feedback-form" class="styled-form">
+                            <div class="form-group">
+                                <label for="name">Ім'я:</label>
+                                <input type="text" id="name" name="name" required placeholder="Ваше ім'я">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-email">Електронна пошта:</label>
+                                <input type="email" id="contact-email" name="contact-email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="country">Країна:</label>
+                                <select id="country" name="country">
+                                    <option value="">Оберіть країну</option>
+                                    <option value="ua">Україна</option>
+                                    <option value="it">Італія</option>
+                                    <option value="uk">Великобританія</option>
+                                    <option value="us">США</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Номер телефону:</label>
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="380XXXXXXXXX">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Повідомлення:</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Ваше повідомлення..."></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="priority">Пріоритет:</label>
+                                <input type="range" id="priority" name="priority" min="1" max="5" value="3">
+                            </div>
+                            
+                            <button type="submit" class="btn-primary">Надіслати</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section id="social" class="section">
+            <div class="container">
+                <h3>Соціальні мережі</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">YouTube</a>
+                    <a href="#" class="social-link">Spotify</a>
+                    <a href="#" class="social-link">TikTok</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    <small> Måneskin Official</small>
+                </div>
+                <div class="contact-info">
+                    <span>Email: info@maneskin.com</span>
+                    <span> | </span>
+                    <span>Phone: +00 000 000 000</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
